@@ -26,6 +26,11 @@ h3 {
     font-family: "Montserrat", sans-serif;
 }
 
+h4 {
+    /*font-weight: bold;*/
+    font-size: x-large;
+}
+
 a {
     color: white;
 }
@@ -59,8 +64,8 @@ a {
 }
 
 .contact img {
-    width: 3rem;
-    height: 3rem;
+    width: 2rem;
+    height: 2rem;
     display: inline-block;
     filter: invert();
 }
@@ -77,7 +82,7 @@ a {
 
 .card {
     display: grid;
-    grid-template-columns: 240px 1fr;
+    grid-template-columns: 280px 1fr;
     /*align-items: center;*/
     /*justify-content: space-evenly;*/
     /*border: 1px solid burlywood;*/
@@ -93,7 +98,7 @@ a {
 
 .card-left img {
     border-radius: 20px;
-    width: 200px;
+    max-width: 100%;
 }
 
 .card-right {
