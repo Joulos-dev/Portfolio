@@ -102,6 +102,17 @@ a {
     border-radius: 25px;
 }
 
+ul {
+    width: 80%;   /* largeur auto selon contenu */
+    margin: 0 auto;       /* centrage horizontal */
+    padding: 0;
+    font-size: medium;
+}
+
+li {
+    padding: 4px;
+}
+
 .card {
     display: grid;
     grid-template-columns: 280px 1fr;
